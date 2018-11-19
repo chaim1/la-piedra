@@ -1,0 +1,77 @@
+ #space1{
+    width: 100%;
+    height: 2000px;
+    background-color: black;
+}
+.bg-dark{
+    background-color:rgba(0, 0, 0, 1)!important;
+}
+a{
+    padding-right: 3.5rem !important;
+    
+}
+
+/*  for mobile */
+@media only screen and (max-width: 1050px) {
+    
+    #mtn1{
+        display: none;
+        
+    }
+    #mtn2{
+        display: inline;
+        position: fixed;
+        width: 100%; 
+        height: 0 auto;
+    }
+    #space{
+        width: 100%;
+        height: 100%;
+        background-image: url('imags/IMG_06699.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #change2{
+        margin-top: 0px;
+    }
+    .haederMt{
+        height: 60px;
+        width: 100%;
+    }
+    
+}
+
+/* for computer    */
+@media only screen and (min-width: 1050px) {
+    
+    #mtn2{
+        display: none;   
+    }
+    #mtn1{
+        display: inline;
+        position: fixed;
+        width: 100%; 
+        height: 0 auto;
+    }
+    #space{
+        width: 100%;
+        height: 100%;
+        background-image: url('imags/IMG_0669.JPG');
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    .haederMt{
+        height: 10px;
+        width: 100%;
+    }
+}
+
+
+
+.hoverA:hover{
+    background-color: rgb(247, 247, 247) !important;
+}
+.hoverD:hover{
+    background-color: rgb(30, 30, 30) !important;
+    
+}
